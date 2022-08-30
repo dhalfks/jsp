@@ -1,0 +1,15 @@
+package orm;
+
+import org.apache.ibatis.session.SqlSessionFactory;
+
+public class DatabaseBuilder {
+	private static SqlSessionFactory factory;
+	
+	static {
+		try {
+			
+		} catch (IOException e) {
+			// TODO: handle exception
+		}
+	}
+}
